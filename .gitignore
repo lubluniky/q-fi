@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# Rust
+target/
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Data
+*.parquet
+*.csv
+
+# Results
+# Logs only
+*.log
+!requirements.txt
